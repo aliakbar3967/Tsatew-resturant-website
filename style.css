@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #003471;
+  height: 75px;
+}
+header a {
+  margin-top: 15px;
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+header a.logo {
+  margin-left: 25px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+header a.logo span{
+    color: crimson;
+}
+.header-right a:hover {
+  color: crimson;
+  transition: 0.5s;
+}
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+.home img {
+  width:100%;
+  overflow: hidden;
+}
+p {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #003471;
+  font-size: 3rem;
+}
+.readbtn{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    height: 40px;
+    width: 175px;
+    background-color: white;
+    border: white;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+}
+.contactbtn{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    height: 40px;
+    width: 175px;
+    background-color: crimson;
+    border: crimson;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+}
+.readbtn:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.contactbtn:hover{
+    background-color: transparent;
+    border: 1px solid crimson;
+    color: crimson;
+}
+
+/* Dishes */
+
+.dish-title{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.dish-title span{
+    color: crimson;
+}
+.dishes {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.dishes img{
+    padding-left: 10px;
+    width: 320px;
+}
+.dishes .itembtn1{
+    position: absolute;
+    top: 145%;
+    left: 7%;
+    opacity: 0;
+    height: 40px;
+    width: 175px;
+    background-color: crimson;
+    border: crimson;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 18px;
+    color: #fff;
+
+}
+.dishes .itembtn2{
+    position: absolute;
+    top: 145%;
+    left: 31%;
+    opacity: 0;
+    height: 40px;
+    width: 175px;
+    background-color: crimson;
+    border: crimson;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.5s;
+}
+.dishes .itembtn3{
+    position: absolute;
+    top: 145%;
+    left: 55%;
+    opacity: 0;
+    height: 40px;
+    width: 175px;
+    background-color: crimson;
+    border: crimson;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.5s;
+}
+.dishes .itembtn4{
+    position: absolute;
+    top: 145%;
+    left: 81%;
+    opacity: 0;
+    height: 40px;
+    width: 175px;
+    background-color: crimson;
+    border: crimson;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.dishes button:hover{
+    opacity: 1;
+}
+/* About Us */
+.about-text{
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+}
+h1 span{
+    color: crimson;
+}
+.about-img{
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 500px;
+}
+.right{
+    float: right;
+    padding-right: 150px;
+    padding-top: 195px;
+}
+.right h1{
+    margin-bottom: 30px;
+}
+.right h4{
+    font-size: 18px;
+}
+.right button{
+    margin-top: 20px;
+    height: 40px;
+    background-color: crimson;
+    border: crimson;
+    width: 120px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.right button:hover{
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+    transition: 0.5s;
+}
+/* reservations */
+.bg-img{
+    margin-top: 40px;
+    background: url(images/res-bg.jpg);
+}
+.form h1{
+    padding-top: 30px;
+    float: left;
+    padding-left: 120px;
+    color: #fff;
+
+}
+.form h2{
+    padding-top: 80px;
+    padding-left: 120px;
+}
+.form h3{
+    padding-top: 20px;
+    padding-left: 120px;
+}
+.form h4{
+    padding-top: 10px;
+    padding-left: 140px;
+}
+
+/* Blog */
+.blog
+{
+    padding-top: 20px;
+}
+.items{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.items img{
+    padding-left: 40px;
+}
+/* Contact Form */
+.contact-text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #003471;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: transparent;
+    border: 1px solid #003471;
+    color: #000;
+  }
+  
+  .container {
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  /* Footer */
+  footer{
+    background: #fff;
+    color: #333;
+    padding: 60px 0 20px;
+}
+.copyright{
+    text-align: center;
+}
